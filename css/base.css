@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+a {
+	text-decoration: none;
+	color: #666666;
+}
+a:hover {
+	color: #1D7AD9;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+.leftArea {
+	float: left;
+	font-size: 16px;
+}
+.rightArea {
+	float: right;
+	font-size: 15px;
+}
+
+
+.topBar {
+	height: 32px;
+	background: #F7F7F7;
+	line-height: 32px;
+}
+.collection {
+	background: url(../images/icon/collection.jpg) left center no-repeat;
+	padding-left: 18px;
+	font-weight: bold;
+}
+
+.logoBar {
+	height: 85px;
+	background: #1D7AD9;
+}
+.logo {
+	padding-left: 26px;
+	padding-top: 13px;
+}
+.search-box {
+	width: 430px;
+}
